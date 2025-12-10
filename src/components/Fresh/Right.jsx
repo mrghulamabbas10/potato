@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function RightSection() {
     return (
-        <div className="relative flex items-center justify-center bg-[#CC8550] p-20 md:p-10 h-full baked-bg">
+        <div className="relative flex items-center justify-center bg-[#CC8550] py-28 px-20 md:py-10 md:px-10 h-full baked-bg">
             {/* Fresh Badge - Top Left */}
             <motion.div
                 className="absolute -top-12 md:-top-14 lg:top-0 left-1/2 -translate-x-1/2 md:left-5 lg:-left-24 xl:left-0 z-20"
@@ -16,7 +16,7 @@ export default function RightSection() {
                 <img
                     src="/images/fresh.png"
                     alt="Fresh"
-                    className="w-[120px] md:w-[180px] xl:w-[220px]"
+                    className="w-[170px] md:w-[180px] xl:w-[220px]"
                 />
             </motion.div>
 
@@ -43,7 +43,7 @@ export default function RightSection() {
                     transition={{ duration: 0.6, delay: 0.3 }}
                 >
                     <h3
-                        className="text-3xl md:text-4xl xl:text-[57px] font-bold text-white leading-none"
+                        className="text-4xl xl:text-[57px] font-bold text-white leading-none"
                         style={{
                             WebkitTextStroke: "1.5px #CC8550",
                             paintOrder: "stroke fill",
@@ -62,7 +62,7 @@ export default function RightSection() {
                     transition={{ duration: 0.6, delay: 0.3 }}
                 >
                     <h3
-                        className="text-3xl md:text-4xl xl:text-[57px] font-bold text-white leading-none"
+                        className="text-4xl xl:text-[57px] font-bold text-white leading-none"
                         style={{
                             WebkitTextStroke: "1.5px #CC8550",
                             paintOrder: "stroke fill",
@@ -75,16 +75,16 @@ export default function RightSection() {
 
             {/* Circular Badge - Bottom Left */}
             <motion.div
-                className="absolute bottom-10 left-10 md:left-32 z-20"
+                className="absolute bottom-16 md:bottom-10 left-7 md:left-32 z-20"
                 animate={{ rotate: 380 }}
                 transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
             >
-                <img src="/images/curcal.png" alt="" className="xl:w-44 md:w-32 w-28" />
+                <img src="/images/curcal.png" alt="" className="xl:w-44 md:w-32 w-32" />
             </motion.div>
 
             {/* Decorative Image - Top Right */}
             <motion.div
-                className="absolute md:top-8 top-12 right-10 md:right-12 z-10"
+                className="absolute md:top-8 top-16 right-14 md:right-12 z-10"
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true, amount: 0.3 }}
@@ -93,7 +93,7 @@ export default function RightSection() {
                 <img
                     src="/images/baked.png"
                     alt="Decoration"
-                    className="w-28 md:w-[280px] lg:w-[220px]"
+                    className="w-32 md:w-[280px] lg:w-[220px]"
                 />
             </motion.div>
         </div>

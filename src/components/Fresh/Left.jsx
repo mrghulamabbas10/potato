@@ -40,7 +40,7 @@ export default function LeftSection() {
                     transition={{ duration: 0.6, delay: 0.5, type: "spring", stiffness: 100 }}
                 >
                     <div className="bg-[#874D2F] text-white px-6 md:px-10 py-3 md:py-4 rounded-lg transform -rotate-1 shadow-lg inline-block">
-                        <span className="text-4xl md:text-5xl lg:text-[57px] font-semibold whitespace-nowrap">
+                        <span className="text-5xl md:text-5xl lg:text-[57px] font-semibold whitespace-nowrap">
                             long days
                         </span>
                     </div>

@@ -31,7 +31,7 @@ export default function TasteaBite() {
         {/* Header */}
         {/* Left Card mobile */}
         <motion.div
-          className=" p-4 md:hidden block z-20"
+          className="p-10 md:hidden block z-20"
           variants={containerVariants}
           initial="hidden"
           whileInView="show"
@@ -52,9 +52,9 @@ export default function TasteaBite() {
         </motion.div>
 
         <motion.div
-          className=" md:hidden block z-20 mb-5"
+          className=" md:hidden block z-20 -mt-5 mb-5"
         >
-          <img src="/images/curcal2.png" alt="" className="w-32 ml-auto pr-10" />
+          <img src="/images/curcal2.png" alt="" className="w-32 ml-auto -translate-x-7" />
         </motion.div>
 
         <div className="text-center">
@@ -86,7 +86,7 @@ export default function TasteaBite() {
 
           {/* Text Animation */}
           <motion.h3
-            className="text-4xl md:text-5xl lg:text-[74px] font-semibold leading-[1.1] max-w-4xl mx-auto text-black md:mt-0 -mt-5"
+            className="px-2 text-4xl md:text-5xl lg:text-[74px] font-semibold leading-[1.1] max-w-4xl mx-auto text-black md:mt-0 -mt-5"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: [20, 0, 10, 0] }} // wave-like effect
             transition={{ duration: 2, ease: "easeInOut" }}

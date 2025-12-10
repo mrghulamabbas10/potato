@@ -119,7 +119,7 @@ export default function RightSection() {
 
                 {/* Right image */}
                 <motion.div
-                    className="md:mt-8 flex gap-4 ml-auto"
+                    className="md:mt-8 -mt-10 flex gap-4 ml-auto pr-5"
                     initial={{ opacity: 0, scale: 0.5 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
