@@ -29,7 +29,7 @@ export default function RightSection() {
                 animate={{ rotate: [0, 10, -10, 0] }}
             >
                 <img
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/c2893fd73768d27d6cf888b5c5806b87b29abbd9?width=764"
+                    src="/images/Baked-Potato.png"
                     alt="Baked Potato"
                     className="w-[250px] md:w-[340px] xl:w-[380px] rounded-full drop-shadow-2xl"
                 />
@@ -55,7 +55,7 @@ export default function RightSection() {
 
                 {/* Food Here Text Overlay */}
                 <motion.div
-                    className="absolute bottom-12 md:bottom-16 -right-14 xl:-right-20 text-center whitespace-nowrap"
+                    className="absolute bottom-5 md:bottom-16 -right-14 xl:-right-20 text-center whitespace-nowrap"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, amount: 0.3 }}

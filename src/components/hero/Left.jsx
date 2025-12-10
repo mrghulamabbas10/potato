@@ -26,7 +26,7 @@ export default function LeftSection() {
                 }}
             >
                 <motion.img
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/a4a0df2d9ca95df0020ebd2c1be5a401c90653bd?width=510"
+                    src="/images/Loadedpotato.png"
                     alt="Loaded potato"
                     className="w-48 md:w-56 lg:w-64 h-auto mx-auto 2xl:mb-8 mb-5"
                     initial={{ scale: 0.6, opacity: 0 }}
@@ -77,7 +77,7 @@ export default function LeftSection() {
             </motion.div>
 
             <motion.img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/f080d4b2a8367f1327553c44d39a53ff92ff9302?width=751"
+                src="/images/decorative-potatoes.png"
                 alt="Decorative potatoes"
                 className="absolute bottom-0 right-0 w-32 md:w-40 lg:w-48 h-auto opacity-90"
                 initial={{ scale: 0.7, opacity: 0, x: 30, y: 30 }}

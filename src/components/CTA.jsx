@@ -47,7 +47,7 @@ export default function CTA() {
 
                 >
                   <img
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/c6029370263d254f85f1821006cd4263087aac9a?width=84"
+                    src="/images/Icon1.png"
                     alt="Icon"
                     className="w-8 h-8 md:w-10 md:h-10 transform rotate-[105deg]"
                   />
@@ -61,7 +61,7 @@ export default function CTA() {
                   viewport={{ once: true, amount: 0.3 }}
                 >
                   <img
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/5d28149295c7aaa30c043730b1b59e1254783995?width=98"
+                    src="/images/Icon2.png"
                     alt="Icon"
                     className="w-10 h-7 md:w-12 md:h-8"
                   />
@@ -75,7 +75,7 @@ export default function CTA() {
                   viewport={{ once: true, amount: 0.6 }}
                 >
                   <img
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/a9938e6d68019119717190ae7e84789507dffaea?width=93"
+                    src="/images/Icon3.png"
                     alt="Icon"
                     className="w-10 h-10 md:w-12 md:h-12 transform rotate-45"
                   />

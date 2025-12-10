@@ -38,7 +38,7 @@ export default function TasteaBite() {
           viewport={{ once: true, amount: 0.5 }}
         >
           <motion.img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/25f58371900266af8437e5f6026a841b9da769e4?width=462"
+            src="/images/Crispybakedpotato.png"
             alt="Crispy baked potato"
             className="w-full rounded-lg mb-5 max-w-[250px]"
             variants={itemVariants}
@@ -121,7 +121,7 @@ export default function TasteaBite() {
             transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           >
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/a51686d5710e32e762b40f9f13f228f869b8479c?width=1404"
+              src="/images/Person.png"
               alt="Person enjoying baked potato"
               className="max-w-full md:max-w-xl xl:max-w-2xl w-full h-auto"
             />
@@ -136,7 +136,7 @@ export default function TasteaBite() {
             viewport={{ once: true, amount: 0.5 }}
           >
             <motion.img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/25f58371900266af8437e5f6026a841b9da769e4?width=462"
+              src="/images/Crispybakedpotatodesktop.png"
               alt="Crispy baked potato"
               className="w-full rounded-lg mb-5"
               variants={itemVariants}
@@ -167,7 +167,7 @@ export default function TasteaBite() {
           transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
         >
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/f48613727a626d8ac4f8d5f04401107acb4d59fa?width=500"
+            src="/images/Chili decoration.png"
             alt="Chili decoration"
             className="md:w-[150px] w-[100px] lg:w-[220px]"
           />
@@ -179,7 +179,7 @@ export default function TasteaBite() {
           transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
         >
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/06af9d0a8c709c13ba1845733dcdf327fc02bcda?width=1108"
+            src="/images/Spices.png"
             alt="Spices decoration"
             className="w-20 md:w-[120px] lg:w-[180px]"
           />
