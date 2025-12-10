@@ -41,7 +41,7 @@ export default function RightSection() {
         >
             {/* Heading */}
             <motion.h2
-                className="text-5xl md:text-6xl lg:text-5xl xl:text-[74px] font-semibold text-black leading-tight mb-4"
+                className="text-5xl md:text-6xl lg:text-5xl xl:text-[74px] font-semibold text-black leading-tight mb-2 md:mb-4"
                 variants={fadeSlideLeft}
                 initial="hidden"
                 whileInView="show"
@@ -52,7 +52,7 @@ export default function RightSection() {
 
             {/* Paragraph */}
             <motion.p
-                className="text-lg xl:text-xl font-medium text-black leading-relaxed mb-5"
+                className="text-base xl:text-xl font-medium text-black leading-relaxed mb-5"
                 variants={fadeSlideRight}
                 initial="hidden"
                 whileInView="show"
@@ -61,7 +61,7 @@ export default function RightSection() {
                 The POT baked potato bar is known for revolutionizing the way
                 people eat and enjoy food. We take pride in our ability to
                 discover the most unique flavors from around the world and share
-                them with the DFW area. Join us.
+                them with the DFW area. <br /> Join us.
             </motion.p>
 
             {/* Buttons & image container */}

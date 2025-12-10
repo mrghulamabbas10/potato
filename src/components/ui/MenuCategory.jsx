@@ -38,7 +38,7 @@ export default function MenuCategory({ category }) {
         </h2>
 
         <motion.div
-          className="flex-1 mx-4 md:mx-6 border-b border-black/20"
+          className="flex-1 mx-4 md:mx-6 border-b-2 border-black"
           variants={{
             hidden: { scaleX: 0, opacity: 0 },
             show: {

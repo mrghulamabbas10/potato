@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Header() {
   return (
-    <header className="absolute top-0 left-0 right-0 z-50 px-6 md:px-8 lg:px-12 py-4 xl:py-2 2xl:py-6 container mx-auto">
+    <header className="absolute top-0 left-0 right-0 z-50 px-2 md:px-8 lg:px-12 py-0 xl:py-2 2xl:py-6 md:mt-0 -mt-2 container mx-auto">
       <div className="max-w-[1440px] mx-auto flex items-center justify-between">
 
         {/* Logo popup */}
@@ -17,7 +17,7 @@ export default function Header() {
             <img
               src="/images/logo.png"
               alt="POT Logo"
-              className="h-12 md:h-14 w-auto"
+              className="h-16 md:h-14 w-auto"
             />
           </Link>
         </motion.div>

@@ -25,7 +25,7 @@ export default function Footer() {
 
   return (
     <footer>
-      <div className="grid md:grid-cols-2 md:gap-5 container mx-auto px-10 pt-16">
+      <div className="grid md:grid-cols-2 md:gap-5 container mx-auto px-10 pt-8 md:pt-16">
         {/* Left Column */}
         <div>
           <div className="md:flex hidden items-center gap-10 mb-6">
@@ -40,24 +40,24 @@ export default function Footer() {
             className="flex items-center gap-4"
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.3 }} // triggers when 30% visible
+            viewport={{ once: true, amount: 0.3 }}
             variants={containerVariants}
           >
             <motion.div variants={socialItem}>
               <Link href="#">
-                <img src="/images/fb.png" alt="fb" className="w-36" />
+                <img src="/images/fb.png" alt="fb" className="md:w-36 md:scale-100 scale-125" />
               </Link>
             </motion.div>
 
             <motion.div variants={socialItem}>
               <Link href="#">
-                <img src="/images/insta.png" alt="insta" className="w-36" />
+                <img src="/images/insta.png" alt="insta" className="md:w-36 md:scale-100 scale-125" />
               </Link>
             </motion.div>
 
             <motion.div variants={socialItem}>
               <Link href="#">
-                <img src="/images/tiktok.png" alt="tiktok" className="w-36" />
+                <img src="/images/tiktok.png" alt="tiktok" className="md:w-36 md:scale-100 scale-125" />
               </Link>
             </motion.div>
           </motion.div>

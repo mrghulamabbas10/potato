@@ -17,10 +17,18 @@ export default function HeroSection() {
         }}
       >
         <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/6acf914411cf06a80ff4501b6ec92ec7916d7f0b?width=960"
+          src="/images/dish-desktop.png"
           alt="Loaded potatoes on a tray"
-          className="w-full md:h-full h-[80vw] object-cover"
+          className="w-full md:h-full h-[80vw] object-cover md:block hidden"
         />
+
+        <img
+          src="/images/dish2-main.png"
+          alt="Loaded potatoes on a tray"
+          className="w-full md:h-full h-[70vw] object-cover md:hidden block"
+        />
+
+
       </motion.div>
       <RightSection />
     </section>

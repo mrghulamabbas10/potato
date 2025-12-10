@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function LeftSection() {
     return (
         <motion.div
-            className="leftSide relative bg-pot-beige flex flex-col items-center justify-center px-6 xl:px-12 py-10 lg:py-16 2xl:py-32 overflow-hidden md:rounded-none rounded-tr-2xl"
+            className="leftSide relative bg-pot-beige flex flex-col items-center justify-center px-6 xl:px-12 py-16 lg:py-16 2xl:py-32 md:rounded-none rounded-tr-2xl"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{
@@ -14,6 +14,7 @@ export default function LeftSection() {
                 ease: "easeOut",
             }}
         >
+            <img src="/images/green.png" alt="" className="absolute -left-10 md:-left-5 top-2/6 md:top-1/2 -translate-y-2/6 md:-translate-y-1/2 w-20" />
             <motion.div
                 className="relative z-10 text-center max-w-md"
                 initial={{ scale: 0.7, opacity: 0 }}
@@ -38,7 +39,7 @@ export default function LeftSection() {
                 />
 
                 <motion.h1
-                    className=" text-4xl md:text-5xl lg:text-4xl xl:text-[52px] font-semibold text-black leading-tight mb-6"
+                    className=" text-5xl md:text-5xl lg:text-4xl xl:text-[52px] font-semibold text-black leading-tight mb-2 md:mb-6"
                     initial={{ y: 30, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.8, duration: 0.5 }}

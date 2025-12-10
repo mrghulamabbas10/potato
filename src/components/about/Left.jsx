@@ -45,7 +45,7 @@ export default function LeftSection() {
                         <motion.img
                             src="/images/dish1.png"
                             alt="Loaded potato"
-                            className="w-full max-w-xl scale-110 mx-auto transform"
+                            className="w-full max-w-xl scale-125 mx-auto transform"
                             animate={{
                                 y: [0, -10, 0],
                             }}

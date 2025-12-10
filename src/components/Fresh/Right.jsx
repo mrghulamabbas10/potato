@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function RightSection() {
     return (
-        <div className="relative flex items-center justify-center bg-[#CC8550] p-10 h-full baked-bg">
+        <div className="relative flex items-center justify-center bg-[#CC8550] p-20 md:p-10 h-full baked-bg">
             {/* Fresh Badge - Top Left */}
             <motion.div
                 className="absolute -top-12 md:-top-14 lg:top-0 left-1/2 -translate-x-1/2 md:left-5 lg:-left-24 xl:left-0 z-20"
@@ -31,7 +31,7 @@ export default function RightSection() {
                 <img
                     src="https://api.builder.io/api/v1/image/assets/TEMP/c2893fd73768d27d6cf888b5c5806b87b29abbd9?width=764"
                     alt="Baked Potato"
-                    className="w-[220px] md:w-[340px] xl:w-[380px] rounded-full drop-shadow-2xl"
+                    className="w-[250px] md:w-[340px] xl:w-[380px] rounded-full drop-shadow-2xl"
                 />
 
                 {/* Eat Best Text Overlay */}
@@ -79,12 +79,12 @@ export default function RightSection() {
                 animate={{ rotate: 380 }}
                 transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
             >
-                <img src="/images/curcal.png" alt="" className="xl:w-44 md:w-32 w-20" />
+                <img src="/images/curcal.png" alt="" className="xl:w-44 md:w-32 w-28" />
             </motion.div>
 
             {/* Decorative Image - Top Right */}
             <motion.div
-                className="absolute top-8 right-12 z-10"
+                className="absolute md:top-8 top-12 right-10 md:right-12 z-10"
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true, amount: 0.3 }}
@@ -93,7 +93,7 @@ export default function RightSection() {
                 <img
                     src="/images/baked.png"
                     alt="Decoration"
-                    className="w-20 md:w-[280px] lg:w-[220px]"
+                    className="w-28 md:w-[280px] lg:w-[220px]"
                 />
             </motion.div>
         </div>

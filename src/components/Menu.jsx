@@ -23,7 +23,7 @@ export default function MenuSection() {
           }}
         >
           {menuData.map((category) => (
-            <SwiperSlide key={category.id}>
+            <SwiperSlide key={category.id} >
               <MenuCategory category={category} />
             </SwiperSlide>
           ))}
