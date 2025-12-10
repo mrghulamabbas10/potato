@@ -16,9 +16,14 @@
   --color-pot-gray: var(--pot-gray);
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .leftSide,
 .rightSide,
-.baked-bg {
+.baked-bg,
+.cta {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -35,4 +40,21 @@
 
 .baked-bg {
   background-image: url("../../public/images/baked-bg.png");
+}
+
+.cta {
+  background-image: url("../../public/images/cta-bg.png");
+}
+
+@media screen and (max-width: 768px) {
+
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  .cta {
+    background-image: url("../../public/images/cta-mobile-bg.png");
+  }
+
 }

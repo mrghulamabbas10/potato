@@ -10,10 +10,10 @@ export default function MenuItem({ item }) {
         <h3 className="font-urbanist text-2xl md:text-[32px] font-semibold text-black leading-tight mb-2">
           {item.name}
         </h3>
-        <p className="font-urbanist text-base md:text-lg font-medium text-black leading-relaxed mb-auto">
+        <p className="font-urbanist text-sm md:text-lg font-medium text-black leading-relaxed mb-auto">
           {item.description}
         </p>
-        <p className="font-urbanist text-base md:text-lg font-medium text-black mt-2">
+        <p className="font-urbanist text-base md:text-lg font-medium text-[#CC8550] mt-2">
           {item.price}
         </p>
       </div>
