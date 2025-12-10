@@ -15,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${urbanist.className} antialiased bg-[#F3F0EC]`}>
+      <body className={`${urbanist.className} antialiased bg-[#F3F0EC] p-2`}>
         {children}
       </body>
     </html>

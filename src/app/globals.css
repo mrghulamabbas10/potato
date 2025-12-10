@@ -17,7 +17,8 @@
 }
 
 .leftSide,
-.rightSide {
+.rightSide,
+.baked-bg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
@@ -30,4 +31,8 @@
 
 .rightSide {
   background-image: url("../../public/images/hero-right.png");
+}
+
+.baked-bg {
+  background-image: url("../../public/images/baked-bg.png");
 }

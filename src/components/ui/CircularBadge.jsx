@@ -28,10 +28,7 @@ export default function CircularBadge() {
             d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0"
             fill="none"
           />
-          <text
-            className="text-[14px] md:text-[16px] fill-[#222218] font-semibold tracking-wider"
-            style={{ fontFamily: "Urbanist, sans-serif" }}
-          >
+          <text className="text-[14px] md:text-[16px] fill-[#222218] font-semibold tracking-wider">
             <textPath href="#circlePath" startOffset="0%">
               EAT & ENJOY FOOD • EAT & ENJOY FOOD
             </textPath>

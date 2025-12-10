@@ -2,7 +2,7 @@ import { Mail } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="relative grid grid-cols-3">
+    <section className="relative container mx-auto grid grid-cols-3">
       <div className="leftSide relative bg-pot-beige flex-1 flex flex-col items-center justify-center px-6 md:px-12 py-20 lg:py-32 overflow-hidden">
         <div className="relative z-10 text-center max-w-md">
           <img

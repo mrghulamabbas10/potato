@@ -42,26 +42,17 @@ export default function CTA() {
               </div>
             </div>
 
-            <h2
-              className="text-xl md:text-2xl lg:text-[28px] font-medium text-pot-darker-brown"
-              style={{ fontFamily: "Urbanist, sans-serif" }}
-            >
+            <h2 className="text-xl md:text-2xl lg:text-[28px] font-medium text-pot-darker-brown">
               Come.Get.Stuffed
             </h2>
 
-            <h3
-              className="text-4xl md:text-5xl lg:text-[76px] font-semibold leading-[1] max-w-3xl mx-auto text-black"
-              style={{ fontFamily: "Urbanist, sans-serif" }}
-            >
+            <h3 className="text-4xl md:text-5xl lg:text-[76px] font-semibold leading-[1] max-w-3xl mx-auto text-black">
               Fuel your <span className="text-pot-brown">stomach</span> in every
               bite
             </h3>
 
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4 pt-4 md:pt-8">
-              <button
-                className="bg-pot-brown hover:bg-pot-dark-brown text-white px-10 md:px-14 py-3 md:py-4 rounded-full text-lg md:text-xl font-semibold transition-colors"
-                style={{ fontFamily: "Urbanist, sans-serif" }}
-              >
+              <button className="bg-pot-brown hover:bg-pot-dark-brown text-white px-10 md:px-14 py-3 md:py-4 rounded-full text-lg md:text-xl font-semibold transition-colors">
                 View Menu
               </button>
 

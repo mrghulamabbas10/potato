@@ -8,7 +8,7 @@ import TasteaBite from "@/components/TasteaBite";
 import Header from "@/layout/Header";
 export default function Home() {
   return (
-    <main className="relative">
+    <main className="relative space-y-8 md:space-y-14 lg:space-y-28">
       <Header />
       <HeroSection />
       <MenuSection />
